@@ -1,0 +1,53 @@
+@media only screen and (min-width: 320px) {
+    
+}
+
+@media only screen and (min-width: 1024px) {
+
+    @import url('https://fonts.googleapis.com/css2?family=Kaisei+Tokumin:wght@700&family=Yomogi&display=swap'); 
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    html, body{
+        width: 100%;
+    }
+    #head{ 
+        height: 1529px;  
+        margin: 0 auto;
+    }
+    .title-top{
+        right: 20%;
+        bottom: -53%;
+        position: absolute;
+    }
+    .navi-scroll{
+        position: sticky;
+        top: 90px;
+        margin: 40px auto;
+    }
+    .txt-nav{
+        font-family: 'Yomogi', cursive;;
+    }
+    #navbar ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+        gap: 30px;
+        background: white;
+        border: solid 4px #a6dcef;
+        border-radius: 10px;
+        width: 900px;
+        margin: 0 auto;
+        padding: 20px 30px;
+        box-shadow: 5px 6px 6px rgb(189 189 189);
+    }
+    .hoteru{
+        
+    }
+    #taizai{}
+}
