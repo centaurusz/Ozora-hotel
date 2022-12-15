@@ -10,18 +10,24 @@
         margin: 0;
         padding: 0;
         box-sizing: border-box;
+        font-family: 'Yomogi', cursive;
     }
 
     html, body{
         width: 100%;
+        
     }
     #head{ 
+        background-image: url(../images/hotel_01.png);
+        background-repeat: no-repeat;
+        background-size: cover;
         height: 1529px;  
         margin: 0 auto;
+        position: relative;
     }
     .title-top{
         right: 20%;
-        bottom: -53%;
+        bottom: 2%;
         position: absolute;
     }
     .navi-scroll{
@@ -29,15 +35,40 @@
         top: 90px;
         margin: 40px auto;
     }
-    .txt-nav{
-        font-family: 'Yomogi', cursive;;
+    .taizai{
+        font-family: 'Yomogi', cursive;
+        color: #FF9801;
+        text-decoration: none;
+    }
+    .mama{
+        font-family: 'Yomogi', cursive;
+        color: #FF9801;
+        text-decoration: none;
+    }
+    .kyapu{
+        font-family: 'Yomogi', cursive;
+        color: #FF9801;
+        text-decoration: none;
+    }
+    .saiko{
+        font-family: 'Yomogi', cursive;
+        color: #FF9801;
+        text-decoration: none;
+    }
+    .hoteru{
+        position: absolute;
+        top: 110%;
+    }
+    header{
+        position: sticky;
     }
     #navbar ul{
+        
         display: flex;
         justify-content: center;
         align-items: center;
         list-style: none;
-        gap: 30px;
+        gap: 50px;
         background: white;
         border: solid 4px #a6dcef;
         border-radius: 10px;
@@ -46,8 +77,38 @@
         padding: 20px 30px;
         box-shadow: 5px 6px 6px rgb(189 189 189);
     }
-    .hoteru{
-        
+    
+    .hoteru h3{
+        font-size: 32px;
+        position: relative;
+        bottom: 450px;
+        left: 30%;
+        font-family: 'Yomogi', cursive;
+        text-align: center;
+        color: #ff6c00;
+        text-shadow: 4px 3px 4px #9BA9AB;
     }
-    #taizai{}
+    .swiper-slide-1:nth-child(1n){
+        position: relative;
+        top: 1600px;
+        left: 90px;
+        z-index: 4;
+    }
+    .swiper-slide-2:nth-child(2n){
+        top: 850px;
+        left: 90px;
+        position: relative;
+        z-index: 3;
+    }
+    .swiper-slide-3:nth-child(3n){
+        top: 150px;
+        left: 90px;
+        position: relative;
+        z-index: 1;
+    }
+    .swiper-slide-4:nth-child(4n){
+        top: -598px;
+        left: 90px;
+        position: relative;
+    }
 }

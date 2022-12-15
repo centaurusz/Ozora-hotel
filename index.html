@@ -9,17 +9,18 @@
 
 </head>
 <body id="head">
-    <img src="images/hotel_01.png">
+
     <div class="title-top">
         <img src="images/title-top.png">
     </div>
     
 <!--navbar pc-->
 <nav id="navbar" class="txt-nav">
+    <header>
     <div class="navi-scroll">
     <ul>
         <li>
-            <a href="#taizai">
+            <a class="taizai" href="#taizai">
                 <span>充実のホテル滞在</span>
             </a>
         </li>
@@ -40,11 +41,40 @@
         </li>
     </ul>
     </div>
+</header>
 </nav>
 <div class="hoteru" id="taizai">
     <img src="images/taizai.jpg">
-    <h3>ファミリーやグループでゆったり
-        充実のホテル滞在</h3>
+    <h3>ファミリーやグループでゆったり<br>充実のホテル滞在</h3>
 </div>
+
+<!--slider hoteru taizai-->
+<div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide-1">
+            <img src="images/fam1.png">
+        </div>
+        <div class="swiper-slide-2">
+            <img src="images/fam2.png">
+        </div>
+        <div class="swiper-slide-3">
+            <img src="images/fam3.png">
+        </div>
+        <div class="swiper-slide-4">
+            <img src="images/fam4.png">
+        </div>
+    </div>
+</div>
+
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+var swiper = new Swiper(".mySwiper", {
+    effect: "cards",
+    grabCursor: true,
+});
+</script>
 </body>
 </html>
