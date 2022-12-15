@@ -1,80 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ozora Hotel</title>
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
     <link rel="stylesheet" href="css/style.css">
 
 </head>
-<body id="head">
 
-    <div class="title-top">
-        <img src="images/title-top.png">
-    </div>
-    
-<!--navbar pc-->
-<nav id="navbar" class="txt-nav">
-    <header>
-    <div class="navi-scroll">
-    <ul>
-        <li>
-            <a class="taizai" href="#taizai">
-                <span>充実のホテル滞在</span>
-            </a>
-        </li>
-        <li>
-            <a class="mama" href="#mama">
-                <span>ママ・パパも安心</span>
-            </a>
-        </li>
-        <li>
-            <a class="kyapu" href="#kyapu">
-                <span>ホテルでキャンプ体験</span>
-            </a>
-        </li>
-        <li>
-            <a class="saiko" href="#saiko">
-                <span>最高のブフェー</span>
-            </a>
-        </li>
-    </ul>
-    </div>
-</header>
-</nav>
-<div class="hoteru" id="taizai">
-    <img src="images/taizai.jpg">
-    <h3>ファミリーやグループでゆったり<br>充実のホテル滞在</h3>
-</div>
-
-<!--slider hoteru taizai-->
-<div class="swiper mySwiper">
-    <div class="swiper-wrapper">
-        <div class="swiper-slide-1">
-            <img src="images/fam1.png">
-        </div>
-        <div class="swiper-slide-2">
-            <img src="images/fam2.png">
-        </div>
-        <div class="swiper-slide-3">
-            <img src="images/fam3.png">
-        </div>
-        <div class="swiper-slide-4">
-            <img src="images/fam4.png">
+<body>
+    <div id="head">
+        <div class="title-top">
+            <img src="images/title-top.png">
         </div>
     </div>
-</div>
+    <!--navbar pc-->
+    <nav id="navbar" class="txt-nav">
 
-<!-- Swiper JS -->
-<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+        <div class="navi-scroll">
+            <ul>
+                <li>
+                    <a class="taizai" href="#taizai">
+                        <span>充実のホテル滞在</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="mama" href="#mama">
+                        <span>ママ・パパも安心</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="kyapu" href="#kyapu">
+                        <span>ホテルでキャンプ体験</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="saiko" href="#saiko">
+                        <span>最高のブフェー</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!---end navbar-->
 
-<!-- Initialize Swiper -->
-<script>
-var swiper = new Swiper(".mySwiper", {
-    effect: "cards",
-    grabCursor: true,
-});
-</script>
+    <div class="hoteru" id="taizai">
+
+        <div class="hoteru-left">
+
+            <div class="swiper testSwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide-1 swiper-slide">
+                        <img src="images/a.jpg">
+                    </div>
+                    <div class="swiper-slide-2 swiper-slide">
+                        <img src="images/b.jpg">
+                    </div>
+                    <div class="swiper-slide-3 swiper-slide">
+                        <img src="images/c.jpg">
+                    </div>
+                    <div class="swiper-slide-4 swiper-slide">
+                        <img src="images/d.jpg">
+                    </div>
+                    <div class="swiper-slide-5 swiper-slide">
+                        <img src="images/e.jpg">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="hoteru-right">
+            <h3>ファミリーやグループでゆったり<br>充実のホテル滞在</h3>
+            <p>大空リゾート®からは無料のシャトルバスによる
+                アクセスも可能です。<br>
+                ホテルに到着したらフロントでチェックインを
+                お済ませ下さい。</p>
+        </div>
+    </div>
+
+    <div class="element">
+        <img src="images/washitape.png">
+        <div class="washtape">
+            <img src="images/washitape.png">
+        </div>
+        <div class="pinneaple">
+            <img src="images/nanas.png">
+        </div>
+    </div>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".testSwiper", {
+            effect: "cards",
+            grabCursor: true,
+            //autoplay: {
+            //   delay: 5000,
+            //},
+        });
+    </script>
 </body>
+
 </html>

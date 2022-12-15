@@ -1,71 +1,106 @@
-@media only screen and (min-width: 320px) {
-    
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+Tokumin:wght@700&family=Yomogi&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Yomogi', cursive;
 }
+
+@media only screen and (min-width: 320px) {}
 
 @media only screen and (min-width: 1024px) {
 
-    @import url('https://fonts.googleapis.com/css2?family=Kaisei+Tokumin:wght@700&family=Yomogi&display=swap'); 
-
-    *{
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-        font-family: 'Yomogi', cursive;
-    }
-
-    html, body{
+    html,
+    body {
         width: 100%;
-        
+
     }
-    #head{ 
+
+    #head {
         background-image: url(../images/hotel_01.png);
         background-repeat: no-repeat;
         background-size: cover;
-        height: 1529px;  
+        height: 1529px;
         margin: 0 auto;
         position: relative;
     }
-    .title-top{
+
+    .title-top {
         right: 20%;
         bottom: 2%;
         position: absolute;
     }
-    .navi-scroll{
+
+    .navi-scroll {
         position: sticky;
         top: 90px;
         margin: 40px auto;
     }
-    .taizai{
+
+    .taizai {
         font-family: 'Yomogi', cursive;
         color: #FF9801;
         text-decoration: none;
     }
-    .mama{
+
+    .mama {
         font-family: 'Yomogi', cursive;
         color: #FF9801;
         text-decoration: none;
     }
-    .kyapu{
+
+    .kyapu {
         font-family: 'Yomogi', cursive;
         color: #FF9801;
         text-decoration: none;
     }
-    .saiko{
+
+    .saiko {
         font-family: 'Yomogi', cursive;
         color: #FF9801;
         text-decoration: none;
     }
-    .hoteru{
-        position: absolute;
-        top: 110%;
+
+    .hoteru {
+        position: relative;
+        background: url(../images/taizai.jpg) no-repeat;
+        display: flex;
+        background-size: contain;
+        justify-content: space-between;
+        padding: 94px;
+        padding-left: 90px;
     }
-    header{
-        position: sticky;
+
+    .hoteru-left {
+        width: 50%;
     }
-    #navbar ul{
-        
+
+    .hoteru-right {
+        width: 40%;
+    }
+
+    .hoteru h3 {
+        font-size: 32px;
+        font-family: 'Yomogi', cursive;
+        text-align: center;
+        color: #ff6c00;
+        text-shadow: 4px 3px 4px #c4cecf;
+        font-family: 'Kaisei Tokumin', serif;
+    }
+
+    .testSwiper .swiper-slide-shadow {
+        background: none;
+    }
+
+    .testSwiper .swiper-slide img {
+        width: 100%;
+    }
+
+    #navbar ul {
         display: flex;
         justify-content: center;
+
         align-items: center;
         list-style: none;
         gap: 50px;
@@ -77,38 +112,25 @@
         padding: 20px 30px;
         box-shadow: 5px 6px 6px rgb(189 189 189);
     }
-    
-    .hoteru h3{
-        font-size: 32px;
-        position: relative;
-        bottom: 450px;
-        left: 30%;
-        font-family: 'Yomogi', cursive;
-        text-align: center;
-        color: #ff6c00;
-        text-shadow: 4px 3px 4px #9BA9AB;
-    }
-    .swiper-slide-1:nth-child(1n){
-        position: relative;
-        top: 1600px;
-        left: 90px;
-        z-index: 4;
-    }
-    .swiper-slide-2:nth-child(2n){
-        top: 850px;
-        left: 90px;
-        position: relative;
-        z-index: 3;
-    }
-    .swiper-slide-3:nth-child(3n){
-        top: 150px;
-        left: 90px;
-        position: relative;
+
+    .element {
+        position: absolute;
+        top: 423%;
+        scale: 1.5;
         z-index: 1;
+        left: 3%;
     }
-    .swiper-slide-4:nth-child(4n){
-        top: -598px;
-        left: 90px;
-        position: relative;
+
+    .washtape {
+        position: absolute;
+        scale: 0.8;
+        z-index: 1;
+        left: 209%;
+        bottom: 123%;
+    }
+    .pinneaple{
+        position: absolute;
+        top: 16%;
+        left: 214%;
     }
 }
