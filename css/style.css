@@ -44,7 +44,7 @@
         text-decoration: none;
     }
 
-    .mama {
+    .mamak {
         font-family: 'Yomogi', cursive;
         color: #FF9801;
         text-decoration: none;
@@ -74,6 +74,7 @@
 
     .hoteru-left {
         width: 50%;
+
     }
 
     .hoteru-right {
@@ -81,6 +82,7 @@
     }
 
     .hoteru h3 {
+        position: sticky;
         font-size: 32px;
         font-family: 'Yomogi', cursive;
         text-align: center;
@@ -88,6 +90,52 @@
         text-shadow: 4px 3px 4px #c4cecf;
         font-family: 'Kaisei Tokumin', serif;
     }
+
+    .hoteru-right img {
+        position: relative;
+        left: -8%;
+    }
+
+    .text {
+        position: absolute;
+        top: 40%;
+        left: 70%;
+        font-size: 25px;
+        transform: translate(-50%, -50%);
+        text-transform: uppercase !important;
+        z-index: 999;
+    }
+
+    /* .mySlides  {
+        display: none;
+      }
+
+    .fade {
+        -webkit-animation-name: fade;
+        -webkit-animation-duration: 1.5s;
+        animation-name: fade;
+        animation-duration: 1.5s;
+    }
+
+    @-webkit-keyframes fade {
+        from {
+            opacity: .4
+        }
+
+        to {
+            opacity: 1
+        }
+    }
+
+    @keyframes fade {
+        from {
+            opacity: .4
+        }
+
+        to {
+            opacity: 1
+        }
+    } */
 
     .testSwiper .swiper-slide-shadow {
         background: none;
@@ -128,9 +176,66 @@
         left: 209%;
         bottom: 123%;
     }
-    .pinneaple{
+
+    .pinneaple {
         position: absolute;
         top: 16%;
         left: 214%;
+    }
+
+    .asset {
+        background-image: url(../images/assetfam_06.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 871px;
+        width: 100%;
+        margin-top: -11%;
+    }
+
+    .asset img {
+        position: relative;
+        top: 7%;
+        left: 18%;
+    }
+
+    .button-1 {
+        position: absolute;
+        top: 436%;
+        left: 54%;
+    }
+
+    .button-1:hover {
+        transform: translateY(-5px);
+    }
+
+    .link-2 {
+        position: absolute;
+        top: 477%;
+        left: 10.5%;
+    }
+
+    .button-2 {
+        position: absolute;
+        top: 18%;
+        left: 72%;
+    }
+
+    .button-2:hover {
+        transform: translateY(-5px);
+    }
+
+    .mama {
+        background-image: url(../images/bg-mama.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 818px;
+        width: 100%;
+        z-index: 1;
+    }
+
+    .title-mama {
+        left: 27%;
+        position: absolute;
+        top: 350%;
     }
 }

@@ -29,7 +29,7 @@
                     </a>
                 </li>
                 <li>
-                    <a class="mama" href="#mama">
+                    <a class="mamak" href="#mama">
                         <span>ママ・パパも安心</span>
                     </a>
                 </li>
@@ -75,10 +75,15 @@
 
         <div class="hoteru-right">
             <h3>ファミリーやグループでゆったり<br>充実のホテル滞在</h3>
-            <p>大空リゾート®からは無料のシャトルバスによる
+            <!-- <img src="images/text-1.png"> -->
+            <div class="mySlides fade"></div>
+            <div class="text">大空リゾート®からは無料のシャトルバスによる<br>
                 アクセスも可能です。<br>
-                ホテルに到着したらフロントでチェックインを
-                お済ませ下さい。</p>
+                ホテルに到着したらフロントでチェックインを<br>
+                お済ませ下さい。</div>
+        </div>
+        <div class="mySlides fade"></div>
+        <div class="text">客室は全室広々設計で、ファミリーやグループみんなでくつろげます。<br>また、全室がバス・トイレ別で、洗い場付きのお風呂はお子様がいるファミリーに<br>ご好評です。
         </div>
     </div>
 
@@ -91,6 +96,33 @@
             <img src="images/nanas.png">
         </div>
     </div>
+
+    <div class="asset">
+        <img src="images/link-1.png">
+        <div class="button-1">
+            <a href="#">
+                <img src="images/button-1.png">
+            </a>
+        </div>
+        <div class="link-2">
+            <img src="images/link-2.png">
+            <div class="button-2">
+                <a href="#">
+                    <img src="images/button-2.png">
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!--Mama papa Anshin-->
+    <div class="mama" id="mama">
+        
+        <div class="title-mama">
+            <img src="images/txt-mama.png">
+        </div>
+    </div>
+
+
     <!-- Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
 
@@ -99,9 +131,9 @@
         var swiper = new Swiper(".testSwiper", {
             effect: "cards",
             grabCursor: true,
-            //autoplay: {
-            //   delay: 5000,
-            //},
+            autoplay: {
+                delay: 2500,
+            },
         });
     </script>
 </body>
