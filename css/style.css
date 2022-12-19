@@ -108,7 +108,7 @@
 
     /* .mySlides  {
         display: none;
-      }
+    }
 
     .fade {
         -webkit-animation-name: fade;
@@ -200,7 +200,7 @@
 
     .button-1 {
         position: absolute;
-        top: 436%;
+        top: 260%;
         left: 54%;
     }
 
@@ -210,7 +210,7 @@
 
     .link-2 {
         position: absolute;
-        top: 477%;
+        top: 287%;
         left: 10.5%;
     }
 
@@ -236,6 +236,164 @@
     .title-mama {
         left: 27%;
         position: absolute;
-        top: 350%;
+        top: 320%;
     }
+
+    .mama p {
+        font-size: 30px;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .grid-1 {
+        position: absolute;
+        left: 17%;
+        top: 380%;
+        z-index: 1;
+    }
+
+    .grid-2 {
+        position: absolute;
+        left: 52%;
+        top: 380%;
+    }
+
+    .grid-3 {
+        position: absolute;
+        left: 17%;
+        top: 428%;
+    }
+
+    .grid-4 {
+        position: absolute;
+        left: 52%;
+        top: 428%;
+    }
+
+    .sun {
+        top: 360%;
+        left: 7%;
+        position: absolute;
+    }
+
+    .star {
+        position: absolute;
+        top: 372%;
+        left: 79%;
+    }
+
+    .crab {
+        position: absolute;
+        left: 10%;
+        top: 420%;
+        z-index: 1;
+    }
+
+    .suika {
+        position: absolute;
+        top: 458%;
+        left: 77%;
+    }
+
+    .eskrim {
+        position: absolute;
+        top: 480%;
+        left: 15%;
+    }
+
+    .link-3 {
+        position: absolute;
+        top: 490%;
+        left: 20.5%;
+    }
+
+    .button-3 {
+        position: absolute;
+        top: 30%;
+        left: 60%;
+    }
+
+    .button-3:hover {
+        transform: translateY(-5px);
+    }
+
+    .line {
+        position: absolute;
+        top: 525%;
+        left: -2.5%;
+    }
+
+    .hotelcap{
+        background-image: url(../images/kyanpu.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 1903px;
+        height: 534px;
+        margin-top: 99%;
+    }
+    .title-kyapu {
+        position: absolute;
+        top: 540%;
+        left: 27%;
+    }
+
+    .minna {
+        position: absolute;
+        top: 563%;
+        left: 40%;
+    }
+
+    .text-desc p{
+        text-align: center;
+        font-size: 30px;
+        padding: 13%;
+    }
+
+    .gel {
+        position: absolute;
+        left: 82%;
+        top: 577%;
+    }
+
+    .swiper-camp {
+        margin-top: 85%;
+        width: 90%;
+        overflow: hidden;
+        position: relative;
+        left: 5%;
+        margin-top: -39%;
+    }
+
+    .swiper-camp .swiper-slide {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+
+    .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .swiper-pagination{
+        top: 660%;
+    }
+
+    .link-4{
+        top: 670%;
+        left: 23%;
+        position: absolute;
+    }
+
 }
