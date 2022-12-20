@@ -323,7 +323,7 @@
         left: -2.5%;
     }
 
-    .hotelcap{
+    .hotelcap {
         background-image: url(../images/kyanpu.jpg);
         background-repeat: no-repeat;
         background-size: cover;
@@ -331,6 +331,7 @@
         height: 534px;
         margin-top: 99%;
     }
+
     .title-kyapu {
         position: absolute;
         top: 540%;
@@ -343,7 +344,7 @@
         left: 40%;
     }
 
-    .text-desc p{
+    .text-desc p {
         text-align: center;
         font-size: 30px;
         padding: 13%;
@@ -353,6 +354,18 @@
         position: absolute;
         left: 82%;
         top: 577%;
+    }
+
+    .ban {
+        position: absolute;
+        left: 9%;
+        top: 700%;
+    }
+
+    .glasses {
+        position: absolute;
+        left: 74.8%;
+        top: 695%;
     }
 
     .swiper-camp {
@@ -386,14 +399,99 @@
         object-fit: cover;
     }
 
-    .swiper-pagination{
+    .swiper-pagination {
         top: 660%;
     }
 
-    .link-4{
+    .swiper-pagination-bullet-active {
+        background-color: #ff6c00;
+    }
+
+    .link-4 {
         top: 670%;
         left: 23%;
         position: absolute;
     }
 
+    .button-4 {
+        position: absolute;
+        left: 62%;
+        top: 680%;
+    }
+
+    .button-4:hover {
+        transform: translateY(-5px);
+        transition: ease-in;
+    }
+
+    .link-5 {
+        position: absolute;
+        left: 23%;
+        top: 700%;
+    }
+
+    .button-5 {
+        position: absolute;
+        left: 62%;
+        top: 710%;
+    }
+
+    .button-5:hover {
+        transform: translateY(-5px);
+    }
+
+    .bufee {
+        background-image: url(../images/bg-saikou.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 797px;
+        width: 1903px;
+        margin-top: 74%;
+    }
+
+    #saiko {
+        position: absolute;
+        top: 753%;
+        left: 20%;
+    }
+
+    .title-saiko {
+        position: absolute;
+        top: 768%;
+        left: 16%;
+    }
+
+    .swiper-saiko {
+        width: 900px;
+        height: auto;
+        margin-top: -35%;
+        margin-left: 28%;
+        overflow: hidden;
+    }
+
+    .swiper-saiko .swiper-slide {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .frame{
+        position: absolute;
+        top: 838%;
+        left: 69%;
+        z-index: 1;
+    }
+
+    .frame-2{
+        position: absolute;
+        top: 783%;
+        left: 25%;
+        z-index: 1;
+    }
+
+    .desc{
+        text-align: center;
+        font-size: 30px;
+        margin-top: 7%;
+    }
 }

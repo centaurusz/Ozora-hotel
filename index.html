@@ -171,7 +171,7 @@
 
     <!-- kyapu -->
     <div class="hotelcap">
-        <div class="line">
+        <div class="line" id="kyapu">
             <img src="images/line-wave.png">
         </div>
         <div class="title-kyapu">
@@ -190,6 +190,12 @@
                 さらに、テーブル、チェアなどのアウトドア用品、<br>
                 キャンプ気分を盛り上げるルーム用プラネタリウムもご用意しました。
             </p>
+        </div>
+        <div class="ban">
+            <img src="images/ban.png">
+        </div>
+        <div class="glasses">
+            <img src="images/glasses.png">
         </div>
     </div>
 
@@ -219,6 +225,64 @@
     <div class="button-4">
         <img src="images/button-4.png">
     </div>
+    <div class="link-5">
+        <img src="images/link-5.png">
+    </div>
+    <div class="button-5">
+        <img src="images/button-5.png">
+    </div>
+
+    <!-- saikou line -->
+    <div class="bufee">
+        <div class="saiko-line" id="saiko">
+            <img src="images/line-saikou.png">
+        </div>
+        <div class="title-saiko">
+            <img src="images/title-saikou.png">
+        </div>
+        <div class="frame">
+            <img src="images/bingkai.png">
+        </div>
+        <div class="frame-2">
+            <img src="images/frame.png">
+        </div>
+    </div>
+
+    <!-- slide saiko -->
+    <div class="swiper-saiko saikoSwiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="images/bufe-a.png">
+            </div>
+            <div class="swiper-slide">
+                <img src="images/bufe-b.png">
+            </div>
+            <div class="swiper-slide">
+                <img src="images/bufe-c.png">
+            </div>
+            <div class="swiper-slide">
+                <img src="images/bufe-d.png">
+            </div>
+            <div class="swiper-slide">
+                <img src="images/bufe-e.png">
+            </div>
+            <div class="swiper-slide">
+                <img src="images/bufe-f.png">
+            </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+    </div>
+
+    <!-- desc saiko -->
+    <div class="desc">
+        <p>
+            パフォーマンスキッチンでシェフが目の前で仕上げる特製料理が盛りだくさん。<br>
+            ハンバーガーや、お好みの具材を選べるオムレツもシェフが目の前で焼き上げます。<br>
+            また、お子様に好評のメニューをそろえたキッズブッフェコーナーもあり、
+            ご家族みなさまでお楽しみいただけます。
+        </p>
+    </div>
 
 
     <!-- Swiper JS -->
@@ -234,10 +298,7 @@
                 delay: 2500,
             },
         });
-    </script>
 
-    <!-- Initialize Swiper -->
-    <script>
         var swiper = new Swiper(".campSwiper", {
             slidesPerView: 3,
             spaceBetween: 30,
@@ -248,6 +309,28 @@
             },
             autoplay: {
                 delay: 2500,
+            },
+        });
+
+        var swiper3 = new Swiper(".saikoSwiper", {
+            grabCursor: true,
+            effect: "creative",
+            loop: true,
+            autoplay: {
+                delay: 2500,
+            },
+            creativeEffect: {
+                prev: {
+                    shadow: true,
+                    translate: ["-20%", 0, -1],
+                },
+                next: {
+                    translate: ["100%", 0, 0],
+                },
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
             },
         });
     </script>
