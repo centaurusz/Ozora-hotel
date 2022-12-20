@@ -37,6 +37,12 @@
         position: absolute;
     }
 
+    .navbar-daun{
+        width: 30%;
+        position: absolute;
+
+    }
+
     .navi-scroll {
         position: sticky;
         top: 90px;
