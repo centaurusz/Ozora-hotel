@@ -334,7 +334,7 @@
         background-image: url(../images/kyanpu.jpg);
         background-repeat: no-repeat;
         background-size: cover;
-        width: 1903px;
+        width: 100%;
         height: 534px;
         margin-top: 99%;
     }
@@ -452,7 +452,7 @@
         background-repeat: no-repeat;
         background-size: cover;
         height: 797px;
-        width: 1903px;
+        width: 100%;
         margin-top: 74%;
     }
 
@@ -537,7 +537,7 @@
         background-repeat: no-repeat;
         background-size: cover;
         height: 715px;
-        width: 1900px;
+        width: 100%;
         
     }
 
@@ -546,7 +546,7 @@
         background-repeat: no-repeat;
         background-size: cover;
         height: 528px;
-        width: 1900px;
+        width: 100%;
     }
 
     .coupon{
