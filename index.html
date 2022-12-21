@@ -60,7 +60,10 @@
                 <div class="swiper-wrapper">
                     <div class="swiper-slide-1 swiper-slide">
                         <img src="images/a.jpg">
-                        <p></p>
+                        <!-- <p>大空リゾート®からは無料のシャトルバスによる<br>
+                            アクセスも可能です。<br>
+                            ホテルに到着したらフロントでチェックインを<br>
+                            お済ませ下さい。</p> -->
                     </div>
                     <div class="swiper-slide-2 swiper-slide">
                         <img src="images/b.jpg">
@@ -80,16 +83,43 @@
 
         <div class="hoteru-right">
             <h3>ファミリーやグループでゆったり<br>充実のホテル滞在</h3>
-            <!-- <img src="images/text-1.png"> -->
-            <div class="mySlides fade"></div>
-            <div class="text">大空リゾート®からは無料のシャトルバスによる<br>
+            <div class="slider-text">
+                <div class="swiper-wrapper slider-text-wrapper">
+                    <div class="swiper-slide">
+                        <img src="images/text-1.png">
+                        <p>AAAA</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/text-1.png">
+                        <p>BBBBB</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/text-1.png">
+                        <p>CCCC</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/text-1.png">
+                        <p>DDDD</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/text-1.png">
+                        <p>EEEE</p>
+                    </div>
+                </div>
+            </div>
+            <!-- <img src="images/text-1.png">
+            <div class="text-2">
+                <img src="images/text-1.png">
+            </div>
+            <div class="mySlides fade"></div> -->
+            <!-- <div class="text">大空リゾート®からは無料のシャトルバスによる<br>
                 アクセスも可能です。<br>
                 ホテルに到着したらフロントでチェックインを<br>
-                お済ませ下さい。</div>
+                お済ませ下さい。</div> -->
         </div>
         <div class="mySlides fade"></div>
-        <div class="text">客室は全室広々設計で、ファミリーやグループみんなでくつろげます。<br>また、全室がバス・トイレ別で、洗い場付きのお風呂はお子様がいるファミリーに<br>ご好評です。
-        </div>
+        <!-- <div class="text">客室は全室広々設計で、ファミリーやグループみんなでくつろげます。<br>また、全室がバス・トイレ別で、洗い場付きのお風呂はお子様がいるファミリーに<br>ご好評です。
+        </div> -->
     </div>
 
     <div class="element">
@@ -364,7 +394,8 @@
                 delay: 2500,
             },
         });
-
+        var sliderText = new Swiper(".slider-text", {});
+        swiper.controller.control = sliderText;
         var swiper = new Swiper(".campSwiper", {
             slidesPerView: 3,
             spaceBetween: 30,
