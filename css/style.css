@@ -26,13 +26,14 @@
     #head {
         background-image: url(../images/hotel_01.png);
         background-repeat: no-repeat;
-        background-size: cover;
-        height: 1529px;
+        background-size: contain;
+        height: 819px;
         margin: 0 auto;
         position: relative;
     }
 
     .title-top {
+        height: 272px;
         right: 20%;
         bottom: 2%;
         text-align: center;
@@ -96,8 +97,8 @@
     .hoteru-right {
         width: 40%;
         z-index: 1;
-        margin-left: 115px;
-        margin-top: -50px;
+        margin-left: 95px;
+        margin-top: -74px;
     }
 
 
@@ -168,15 +169,13 @@
     .washitape01 {
         position: absolute;
         top: 30px;
-        scale: 1.2;
-        right: 919px;
+        right: 491px;
     }
 
     .washitape02 {
         position: absolute;
-        bottom: 26px;
-        scale: 1.2;
-        left: -97px;
+        bottom: 4px;
+        left: -85px;
     }
 
     .asset {
@@ -192,13 +191,15 @@
     .link-1 {
         text-align: center;
         padding-top: 2.5%;
+        position: relative;
+        height: 186px;
     }
 
 
     .button-1 {
         position: absolute;
-        left: 55%;
-        margin-top: -14%;
+        top: 25%;
+        right: 15%;
     }
 
     .button-1:hover {
@@ -207,15 +208,16 @@
 
     .link-2 {
         text-align: center;
-        position: static;
         margin-top: -2%;
         margin-left: 2.5%;
+        position: relative;
+        height: 215px;
     }
 
-    .button-2 {
+    .button-2 {        
         position: absolute;
-        left: 55%;
-        margin-top: -12%;
+        top: 25%;
+        right: 15%;
     }
 
     .button-2:hover {
@@ -227,7 +229,7 @@
         background-repeat: no-repeat;
         background-size: cover;
         text-align: center;
-        height: 818px;
+        /* height: 818px; */
         width: 100%;
         z-index: 1;
     }
@@ -284,12 +286,13 @@
         justify-content: center;
         width: 100%;
         height: 426px;
+        position: relative;
     }
 
-    .button-3 {
+    .button-3 {        
         position: absolute;
-        top: 30%;
-        left: 60%;
+        top: 25%;
+        right: 15%;
     }
 
     .button-3:hover {
@@ -297,42 +300,44 @@
     }
 
     .line {
-        position: absolute;
+        /* position: absolute;
         top: 525%;
-        left: -2.5%;
+        left: -2.5%; */
+    }
+
+    .line img {
+       width: 100%;
     }
 
     .hotelcap {
         background-image: url(../images/kyanpu.jpg);
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: contain;
+        background-position: bottom;
         width: 100%;
-        height: 534px;
-        margin-top: 99%;
+        /* height: 534px;
+        margin-top: 99%; */
+        text-align: center;
+        position: relative;
     }
 
     .title-kyapu {
-        position: absolute;
-        top: 540%;
-        left: 27%;
     }
 
     .minna {
-        position: absolute;
-        top: 563%;
-        left: 40%;
+        
     }
 
     .text-desc p {
         text-align: center;
         font-size: 30px;
-        padding: 13%;
+        padding: 40px 0 55px;
     }
 
     .gel {
         position: absolute;
-        left: 82%;
-        top: 577%;
+        right: 0;
+        top: 40%;
     }
 
     .ban {
@@ -348,12 +353,13 @@
     }
 
     .swiper-camp {
-        margin-top: 85%;
+        /* margin-top: 85%; */
         width: 90%;
         overflow: hidden;
         position: relative;
-        left: 5%;
-        margin-top: -39%;
+        margin: auto;
+        /* left: 5%;
+        margin-top: -39%; */
     }
 
     .swiper-camp .swiper-slide {
@@ -379,23 +385,35 @@
     }
 
     .swiper-pagination {
-        top: 660%;
+        /* top: 669%; */
+        bottom: 0;
     }
 
     .swiper-pagination-bullet-active {
         background-color: #ff6c00;
     }
 
+    .hotelcap-b {
+        background: url(../images/ban.png) no-repeat, url(../images/glasses.png) no-repeat;
+        background-position: 2% 60%, 100% 8%;
+        padding: 62px 0;
+    }
+
     .link-4 {
-        top: 670%;
-        left: 23%;
-        position: absolute;
+        position: relative;
+        width: 80%;
+        max-width: 1133px;
+        margin: 0 auto 50px;
+    }
+
+    .not-link {
+        width: 100%;
     }
 
     .button-4 {
         position: absolute;
-        left: 62%;
-        top: 680%;
+        right: 10%;
+        top: 32%;
     }
 
     .button-4:hover {
@@ -404,15 +422,16 @@
     }
 
     .link-5 {
-        position: absolute;
-        left: 23%;
-        top: 700%;
+        position: relative;        
+        width: 80%;
+        max-width: 1133px;
+        margin: 0 auto;
     }
 
     .button-5 {
         position: absolute;
-        left: 62%;
-        top: 710%;
+        right: 10%;
+        top: 32%;
     }
 
     .button-5:hover {
@@ -429,10 +448,14 @@
     }
 
     #saiko {
-        position: absolute;
-        top: 753%;
-        left: 20%;
+       text-align: center;
+       margin: 80px auto;
     }
+
+    #saiko img {
+        width: 100%;
+        max-width: 1273px;
+     }
 
     .title-saiko {
         position: absolute;
