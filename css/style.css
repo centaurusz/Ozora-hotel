@@ -35,7 +35,7 @@
     .title-top {
         right: 20%;
         bottom: 2%;
-        position: absolute;
+        text-align: center;
     }
 
     .navbar-daun {
@@ -88,18 +88,18 @@
 
     }
 
-    .swiper-slide-1 {
-        display: flex;
-    }
-
     p {
-        justify-content: space-between;
-        padding-left: 20%;
+        font-size: 30px;
+        text-align: center;
     }
 
     .hoteru-right {
         width: 40%;
+        z-index: 1;
+        margin-left: 115px;
+        margin-top: -50px;
     }
+
 
     .hoteru h3 {
         position: sticky;
@@ -112,80 +112,15 @@
     }
 
     .hoteru-right img {
+        width: 50%;
+    }
+
+    .slider-text {
+        overflow: hidden;
+    }
+
+    .slider-text-wrapper .swiper-slide {
         width: 100%;
-        /* position: relative;
-        left: 20%;
-        animation: fade 5s;
-        -webkit-animation: fade 5s;
-        -moz-animation: fade 5s;
-        -o-animation: fade 5s;
-        -ms-animation: fade 5s;
-        z-index: 3; */
-    }
-.slider-text {
-    overflow: hidden;
-}
-.slider-text-wrapper .swiper-slide {
-    width: 100%;
-}
-    @keyframes fadeIn {
-        0% {
-            opacity: 0;
-        }
-        50%{
-            opacity: 1;
-        }
-        100% {
-            opacity: 0;
-        }
-    }
-
-    @-moz-keyframes fade {
-        0% {
-            opacity: 0;
-        }
-        50%{
-            opacity: 1;
-        }
-        100% {
-            opacity: 0;
-        }
-    }
-
-    @-webkit-keyframes fade {
-        0% {
-            opacity: 0;
-        }
-        50%{
-            opacity: 1;
-        }
-        100% {
-            opacity: 0;
-        }
-    }
-
-    @-o-keyframes fade {
-        0% {
-            opacity: 0;
-        }
-        50%{
-            opacity: 1;
-        }
-        100% {
-            opacity: 0;
-        }
-    }
-
-    @-ms-keyframes fade {
-        0% {
-            opacity: 0;
-        }
-        50%{
-            opacity: 1;
-        }
-        100% {
-            opacity: 0;
-        }
     }
 
     .text {
@@ -197,37 +132,6 @@
         text-transform: uppercase !important;
         z-index: 999;
     }
-
-    /* .mySlides  {
-        display: none;
-    }
-
-    .fade {
-        -webkit-animation-name: fade;
-        -webkit-animation-duration: 1.5s;
-        animation-name: fade;
-        animation-duration: 1.5s;
-    }
-
-    @-webkit-keyframes fade {
-        from {
-            opacity: .4
-        }
-
-        to {
-            opacity: 1
-        }
-    }
-
-    @keyframes fade {
-        from {
-            opacity: .4
-        }
-
-        to {
-            opacity: 1
-        }
-    } */
 
     .testSwiper .swiper-slide-shadow {
         background: none;
@@ -255,24 +159,24 @@
 
     .element {
         position: absolute;
-        top: 230%;
-        scale: 1.5;
+        top: 0;
         z-index: 1;
-        left: 3%;
+        height: 100%;
+        width: 100%;
     }
 
-    .washtape {
+    .washitape01 {
         position: absolute;
-        scale: 0.8;
-        z-index: 1;
-        left: 209%;
-        bottom: 123%;
+        top: 30px;
+        scale: 1.2;
+        right: 919px;
     }
 
-    .pinneaple {
+    .washitape02 {
         position: absolute;
-        top: 16%;
-        left: 214%;
+        bottom: 26px;
+        scale: 1.2;
+        left: -97px;
     }
 
     .asset {
@@ -281,19 +185,20 @@
         background-size: cover;
         height: 871px;
         width: 100%;
-        margin-top: -11%;
+        margin-top: -10%;
+
     }
 
-    .asset img {
-        position: relative;
-        top: 7%;
-        left: 18%;
+    .link-1 {
+        text-align: center;
+        padding-top: 2.5%;
     }
+
 
     .button-1 {
         position: absolute;
-        top: 260%;
-        left: 54%;
+        left: 55%;
+        margin-top: -14%;
     }
 
     .button-1:hover {
@@ -301,104 +206,84 @@
     }
 
     .link-2 {
-        position: absolute;
-        top: 287%;
-        left: 10.5%;
+        text-align: center;
+        position: static;
+        margin-top: -2%;
+        margin-left: 2.5%;
     }
 
     .button-2 {
         position: absolute;
-        top: 18%;
-        left: 72%;
+        left: 55%;
+        margin-top: -12%;
     }
 
     .button-2:hover {
         transform: translateY(-5px);
     }
 
-
     .mama {
         background-image: url(../images/bg-mama.jpg);
         background-repeat: no-repeat;
         background-size: cover;
+        text-align: center;
         height: 818px;
         width: 100%;
-        display: flex;
         z-index: 1;
     }
 
     .title-mama {
-        left: 27%;
-        position: absolute;
-        top: 320%;
+        position: relative;
+        top: -12%;
     }
 
-    .mama p {
-        font-size: 30px;
-        text-align: center;
-        margin-top: 10px;
+    .kolase {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
     }
 
-    .grid-1 {
-        position: absolute;
-        left: 17%;
-        top: 380%;
+
+    .grid {
+        justify-content: center;
+
         z-index: 1;
     }
 
-    .grid-2 {
-        position: absolute;
-        left: 52%;
-        top: 380%;
-    }
-
-    .grid-3 {
-        position: absolute;
-        left: 17%;
-        top: 428%;
-    }
-
-    .grid-4 {
-        position: absolute;
-        left: 52%;
-        top: 428%;
-    }
-
     .sun {
-        top: 360%;
+        margin-top: -10%;
         left: 7%;
         position: absolute;
     }
 
     .star {
         position: absolute;
-        top: 372%;
         left: 79%;
+        margin-top: -50%;
+        z-index: 1;
     }
 
     .crab {
         position: absolute;
         left: 10%;
-        top: 420%;
+        margin-top: -30%;
         z-index: 1;
     }
 
     .suika {
         position: absolute;
-        top: 458%;
-        left: 77%;
-    }
-
-    .eskrim {
-        position: absolute;
-        top: 480%;
-        left: 15%;
+        left: 75%;
+        margin-top: -6%;
+        z-index: 1;
     }
 
     .link-3 {
-        position: absolute;
-        top: 490%;
-        left: 20.5%;
+        background-image: url(../images/eskrim.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        justify-content: center;
+        width: 100%;
+        height: 426px;
     }
 
     .button-3 {

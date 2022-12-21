@@ -55,15 +55,12 @@
     <div class="hoteru" id="taizai">
 
         <div class="hoteru-left">
+            
 
             <div class="swiper testSwiper">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide-1 swiper-slide">
                         <img src="images/a.jpg">
-                        <!-- <p>大空リゾート®からは無料のシャトルバスによる<br>
-                            アクセスも可能です。<br>
-                            ホテルに到着したらフロントでチェックインを<br>
-                            お済ませ下さい。</p> -->
                     </div>
                     <div class="swiper-slide-2 swiper-slide">
                         <img src="images/b.jpg">
@@ -79,61 +76,44 @@
                     </div>
                 </div>
             </div>
+        
+            <div class="element">
+                <img src="images/washitape.png" class="washitape01">
+                <img src="images/washitape.png" class="washitape02">
+            </div>
         </div>
 
         <div class="hoteru-right">
-            <h3>ファミリーやグループでゆったり<br>充実のホテル滞在</h3>
+            <h3>ファミリーやグループでゆったり<br>充実のホテル滞在 <br><br></h3>
             <div class="slider-text">
                 <div class="swiper-wrapper slider-text-wrapper">
                     <div class="swiper-slide">
                         <img src="images/text-1.png">
-                        <p>AAAA</p>
                     </div>
                     <div class="swiper-slide">
-                        <img src="images/text-1.png">
-                        <p>BBBBB</p>
+                        <img src="images/text-2.png">
                     </div>
                     <div class="swiper-slide">
-                        <img src="images/text-1.png">
-                        <p>CCCC</p>
+                        <img src="images/text-3.png">
                     </div>
                     <div class="swiper-slide">
-                        <img src="images/text-1.png">
-                        <p>DDDD</p>
+                        <img src="images/text-4.png">
                     </div>
                     <div class="swiper-slide">
-                        <img src="images/text-1.png">
-                        <p>EEEE</p>
+                        <img src="images/text-5.png">
+                    </div>
+                    <div class="pinneaple">
+                        <img src="images/nanas.png">
                     </div>
                 </div>
             </div>
-            <!-- <img src="images/text-1.png">
-            <div class="text-2">
-                <img src="images/text-1.png">
-            </div>
-            <div class="mySlides fade"></div> -->
-            <!-- <div class="text">大空リゾート®からは無料のシャトルバスによる<br>
-                アクセスも可能です。<br>
-                ホテルに到着したらフロントでチェックインを<br>
-                お済ませ下さい。</div> -->
-        </div>
-        <div class="mySlides fade"></div>
-        <!-- <div class="text">客室は全室広々設計で、ファミリーやグループみんなでくつろげます。<br>また、全室がバス・トイレ別で、洗い場付きのお風呂はお子様がいるファミリーに<br>ご好評です。
-        </div> -->
-    </div>
-
-    <div class="element">
-        <img src="images/washitape.png">
-        <div class="washtape">
-            <img src="images/washitape.png">
-        </div>
-        <div class="pinneaple">
-            <img src="images/nanas.png">
         </div>
     </div>
 
     <div class="asset">
-        <img src="images/link-1.png">
+        <div class="link-1">
+            <img src="images/link-1.png">
+        </div>
         <div class="button-1">
             <a href="#">
                 <img src="images/button-1.png">
@@ -161,25 +141,29 @@
                 お寛ぎいただけます。
             </p>
         </div>
+        <div class="asset-2">
+            <div class="sun">
+                <img src="images/mysun.png">
+            </div>
 
         <!-- kolase -->
         <div class="kolase">
-            <div class="grid-1">
+            <div class="grid">
                 <img src="images/mama1.png">
             </div>
-            <div class="grid-2">
+            <div class="grid">
                 <img src="images/mama2.png">
             </div>
-            <div class="grid-3">
+            <div class="grid">
                 <img src="images/mama3.png">
             </div>
-            <div class="grid-4">
+            <div class="grid">
                 <img src="images/mama4.png">
             </div>
-            <div class="asset-2">
-                <div class="sun">
-                    <img src="images/mysun.png">
-                </div>
+            
+
+            </div>
+            <div class="asset-22">
                 <div class="star">
                     <img src="images/petrik.png">
                 </div>
@@ -188,9 +172,6 @@
                 </div>
                 <div class="suika">
                     <img src="images/semangka.png">
-                </div>
-                <div class="eskrim">
-                    <img src="images/eskrim.png">
                 </div>
             </div>
         </div>
@@ -386,16 +367,16 @@
 
     <!-- Initialize Swiper -->
     <script>
-        var swiper = new Swiper(".testSwiper", {
+        var topSwiper = new Swiper(".testSwiper", {
             effect: "cards",
             grabCursor: true,
-            loop: true,
+            //loop: true,
             autoplay: {
                 delay: 2500,
             },
         });
         var sliderText = new Swiper(".slider-text", {});
-        swiper.controller.control = sliderText;
+        topSwiper.controller.control = sliderText;
         var swiper = new Swiper(".campSwiper", {
             slidesPerView: 3,
             spaceBetween: 30,
