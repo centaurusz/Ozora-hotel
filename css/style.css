@@ -33,10 +33,12 @@
     }
 
     .title-top {
-        height: 272px;
-        right: 20%;
-        bottom: 2%;
         text-align: center;
+    }
+
+    .title-top {
+        position: relative;
+        top: 50%;
     }
 
     .navbar-daun {
@@ -214,10 +216,10 @@
         height: 215px;
     }
 
-    .button-2 {        
+    .button-2 {
         position: absolute;
         top: 25%;
-        right: 15%;
+        right: 13%;
     }
 
     .button-2:hover {
@@ -234,7 +236,7 @@
         z-index: 1;
     }
 
-    .title-mama {
+    .title-mama img{
         position: relative;
         top: -12%;
     }
@@ -289,7 +291,7 @@
         position: relative;
     }
 
-    .button-3 {        
+    .button-3 {
         position: absolute;
         top: 25%;
         right: 15%;
@@ -306,7 +308,7 @@
     }
 
     .line img {
-       width: 100%;
+        width: 100%;
     }
 
     .hotelcap {
@@ -321,12 +323,9 @@
         position: relative;
     }
 
-    .title-kyapu {
-    }
+    .title-kyapu {}
 
-    .minna {
-        
-    }
+    .minna {}
 
     .text-desc p {
         text-align: center;
@@ -422,7 +421,7 @@
     }
 
     .link-5 {
-        position: relative;        
+        position: relative;
         width: 80%;
         max-width: 1133px;
         margin: 0 auto;
@@ -448,14 +447,14 @@
     }
 
     #saiko {
-       text-align: center;
-       margin: 80px auto;
+        text-align: center;
+        margin: 80px auto;
     }
 
     #saiko img {
         width: 100%;
         max-width: 1273px;
-     }
+    }
 
     .title-saiko {
         position: absolute;
