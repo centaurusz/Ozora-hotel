@@ -7,40 +7,40 @@
     font-family: 'Yomogi', cursive;
 }
 
-@media only screen and (min-width: 320px) {
-
-    html,
+html,
     body {
         width: 100%;
+
     }
-}
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 375px) {
 
-    html,
-    body {
-        width: 100%;
+    .sp {
+        display: block;
+    }
 
+    .pc{
+        display: none;
     }
 
     #head {
         background-image: url(../images/hotel_01.png);
         background-repeat: no-repeat;
         background-size: contain;
-        height: 811px;
+        height: 200px;
         margin: 0 auto;
         position: relative;
     }
 
-    .title-top img{
-        position: relative;
-        margin: 70px auto;
-        max-width: 1000px;
+    .title-top {
+        height: 272px;
+        right: 20%;
+        bottom: 2%;
+        text-align: center;
     }
 
-    .title-top {
-        position: relative;
-        top: 50%;
+    .title-top img {
+        margin-top: 40%;
     }
 
     .navbar-daun {
@@ -105,9 +105,6 @@
         margin-top: -74px;
     }
 
-    .hoteru-right h3{
-        margin-bottom: 19px;
-    }
 
     .hoteru h3 {
         position: sticky;
@@ -117,6 +114,10 @@
         color: #ff6c00;
         text-shadow: 4px 3px 4px #c4cecf;
         font-family: 'Kaisei Tokumin', serif;
+    }
+
+    .hoteru-right h3 {
+        margin-bottom: 19px;
     }
 
     .hoteru-right img {
@@ -166,34 +167,31 @@
     }
 
     .element {
-        position: absolute;
-        top: 0;
-        z-index: 1;
         height: 100%;
         width: 100%;
-        left: 0;
     }
 
-    .washitape01 {
+    .element img {
         position: absolute;
-        top: 30px;
-        right: 491px;
+        bottom: 49%;
+        left: 388px;
+        z-index: 100;
     }
 
-    .washitape02 {
+    .element-2 img {
         position: absolute;
-        bottom: 4px;
-        left: -85px;
+        bottom: 2%;
+        left: -4px;
+        z-index: 1;
     }
 
     .asset {
         background-image: url(../images/assetfam_06.jpg);
         background-repeat: no-repeat;
-        background-size: cover;
-        height: 871px;
+        background-size: contain;
         width: 100%;
-        margin-top: -10%;
-
+        margin-top: -13%;
+        height: 475px;
     }
 
     .link-1 {
@@ -203,20 +201,23 @@
         margin: 0 auto;
     }
 
-    .link-1 img{
+    .link-1 img {
         max-width: 900px;
+        height: 135px;
+        margin-top: 58px;
     }
 
     .button-1 {
         position: absolute;
         top: 27%;
-        right: 18%;
+        right: 15%;
         z-index: 100;
-        max-width: 1000px;
     }
 
-    .button-1 img{
-        height: 100px;
+    .button-1 img {
+        height: 66px;
+        right: 130px;
+        position: relative;
     }
 
     .button-1:hover {
@@ -228,13 +229,26 @@
         margin-top: -2%;
         margin-left: 2.5%;
         position: relative;
-        height: 215px;
+    }
+
+    .link-2 img {
+        max-width: 900px;
+        text-align: center;
+        height: 155px;
+        margin-top: 30px;
     }
 
     .button-2 {
         position: absolute;
         top: 25%;
-        right: 13%;
+        right: 15%;
+    }
+
+    .button-2 img {
+        position: relative;
+        height: 83px;
+        right: 124px;
+        bottom: 20px;
     }
 
     .button-2:hover {
@@ -244,82 +258,124 @@
     .mama {
         background-image: url(../images/bg-mama.jpg);
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: contain;
         text-align: center;
-        /* height: 818px; */
         width: 100%;
-        z-index: 1;
+        margin: 35px auto;
     }
 
-    .title-mama img{
+    .title-mama {
+        text-align: center;
+    }
+
+    .title-mama img {
         position: relative;
-        top: -12%;
+        bottom: 81px;
+        height: 239px;
+    }
+
+    .title-mama p {
+        font-size: 23px;
+        text-align: center;
+        bottom: 75px;
+        position: relative;
+        z-index: 100;
     }
 
     .kolase {
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
+        position: relative;
     }
 
-
-    .grid {
-        justify-content: center;
-
-        z-index: 1;
+    .grid img {
+        height: 260px;
+        z-index: 10;
+        position: relative;
+        top: -41px;
     }
 
     .sun {
-        margin-top: -10%;
-        left: 7%;
+        left: 3%;
+        top: 131em;
         position: absolute;
+    }
+
+    .sun img {
+        height: 207px;
     }
 
     .star {
         position: absolute;
-        left: 79%;
-        margin-top: -50%;
-        z-index: 1;
+        right: 93px;
+        top: 135em;
+        z-index: 20;
+    }
+
+    .star img {
+        height: 117px;
     }
 
     .crab {
         position: absolute;
-        left: 10%;
-        margin-top: -30%;
-        z-index: 1;
+        left: 8%;
+        top: 150em;
+        z-index: 20;
+    }
+
+    .crab img {
+        height: 117px;
     }
 
     .suika {
         position: absolute;
-        left: 75%;
-        margin-top: -6%;
-        z-index: 1;
+        left: 78%;
+        z-index: 20;
+    }
+
+    .suika img {
+        height: 117px;
+        position: absolute;
+        bottom: 2px;
     }
 
     .link-3 {
         background-image: url(../images/eskrim.png);
         background-repeat: no-repeat;
-        background-size: cover;
-        justify-content: center;
-        width: 100%;
-        height: 426px;
+        background-size: contain;
+        background-position: center;
         position: relative;
+        height: 242px;
+        top: -19px;
+    }
+
+    .link-3a {
+        position: relative;
+        top: 20px;
+    }
+
+    .link-3a img {
+        top: 25px;
+        position: relative;
+        height: 137px;
     }
 
     .button-3 {
         position: absolute;
-        top: 25%;
-        right: 15%;
+        top: 35%;
+        right: 19%;
+    }
+
+    .button-3 img {
+        height: 63px;
+        position: absolute;
+        top: 11px;
+        right: 98px;
     }
 
     .button-3:hover {
         transform: translateY(-5px);
-    }
-
-    .line {
-        /* position: absolute;
-        top: 525%;
-        left: -2.5%; */
     }
 
     .line img {
@@ -332,20 +388,23 @@
         background-size: contain;
         background-position: bottom;
         width: 100%;
-        /* height: 534px;
-        margin-top: 99%; */
         text-align: center;
         position: relative;
     }
 
-    .title-kyapu {}
+    .title-kyapu img {
+        height: 140px;
+    }
 
-    .minna {}
+    .minna img {
+        height: 120px;
+    }
 
     .text-desc p {
         text-align: center;
-        font-size: 30px;
-        padding: 40px 0 55px;
+        font-size: 20px;
+        position: relative;
+        bottom: 38px;
     }
 
     .gel {
@@ -354,26 +413,16 @@
         top: 40%;
     }
 
-    .ban {
-        position: absolute;
-        left: 9%;
-        top: 700%;
-    }
-
-    .glasses {
-        position: absolute;
-        left: 74.8%;
-        top: 695%;
+    .gel img {
+        height: 100px;
     }
 
     .swiper-camp {
-        /* margin-top: 85%; */
         width: 90%;
         overflow: hidden;
         position: relative;
-        margin: auto;
-        /* left: 5%;
-        margin-top: -39%; */
+        margin: 34px auto;
+        top: -17px;
     }
 
     .swiper-camp .swiper-slide {
@@ -399,7 +448,6 @@
     }
 
     .swiper-pagination {
-        /* top: 669%; */
         bottom: 0;
     }
 
@@ -407,27 +455,59 @@
         background-color: #ff6c00;
     }
 
-    .hotelcap-b {
+    /* .hotelcap-b {
         background: url(../images/ban.png) no-repeat, url(../images/glasses.png) no-repeat;
-        background-position: 2% 60%, 100% 8%;
+        background-position: -22% 8%, 100% 8%; 
         padding: 62px 0;
+    } */
+    .ban {
+        position: absolute;
+        top: 125%;
+        left: 90px;
+    }
+
+    .ban img {
+        height: 146px;
+    }
+
+    .glasses {
+        position: absolute;
+        left: 75%;
+    }
+
+    .glasses img {
+        height: 135px;
+        position: absolute;
     }
 
     .link-4 {
         position: relative;
-        width: 80%;
+        width: 100%;
         max-width: 1133px;
-        margin: 0 auto 50px;
+        margin: 0 auto;
+        text-align: center;
     }
 
-    .not-link {
-        width: 100%;
+    .link-4 img {
+        text-align: center;
+        height: 150px;
+        margin-top: 25px;
     }
+
+    /* .not-link {
+        width: 100%;
+    } */
 
     .button-4 {
         position: absolute;
-        right: 10%;
+        right: 23%;
         top: 32%;
+    }
+
+    .button-4 img {
+        height: 67px;
+        position: absolute;
+        right: -1px;
     }
 
     .button-4:hover {
@@ -437,15 +517,27 @@
 
     .link-5 {
         position: relative;
-        width: 80%;
+        width: 100%;
+        text-align: center;
         max-width: 1133px;
         margin: 0 auto;
+    }
+
+    .link-5 img {
+        height: 152px;
+        text-align: center;
     }
 
     .button-5 {
         position: absolute;
         right: 10%;
         top: 32%;
+    }
+
+    .button-5 img {
+        height: 61px;
+        position: absolute;
+        right: 136px;
     }
 
     .button-5:hover {
@@ -455,34 +547,46 @@
     .bufee {
         background-image: url(../images/bg-saikou.jpg);
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: contain;
+        position: relative;
         height: 797px;
         width: 100%;
-        margin-top: 74%;
     }
 
     #saiko {
         text-align: center;
-        margin: 80px auto;
+        margin: 20px auto 95px;
     }
 
     #saiko img {
-        width: 100%;
+        width: 80%;
         max-width: 1273px;
     }
 
-    .title-saiko {
+    /* .title-saiko {
         position: absolute;
         top: 768%;
         left: 16%;
+    } */
+
+    .title-saiko img {
+        height: 75px;
+        margin: auto 78px;
+        top: -45px;
+        position: relative;
     }
 
     .swiper-saiko {
-        width: 900px;
+        max-width: 900px;
         height: auto;
-        margin-top: -35%;
-        margin-left: 26.5%;
+        margin-top: -72%;
+        margin-left: 25.5%;
         overflow: hidden;
+    }
+
+    .swiper-saiko img {
+        height: 338px;
+        width: 506px;
     }
 
     .swiper-saiko .swiper-slide {
@@ -493,46 +597,53 @@
 
     .frame {
         position: absolute;
-        top: 838%;
-        left: 68%;
+        top: 38%;
+        right: 22%;
         z-index: 1;
+    }
+
+    .frame img {
+        height: 120px
     }
 
     .frame-2 {
         position: absolute;
-        top: 783%;
-        left: 23%;
+        top: 3%;
+        left: 22%;
         z-index: 1;
+    }
+
+    .frame-2 img {
+        height: 120px;
     }
 
     .desc {
         text-align: center;
-        font-size: 30px;
         margin-top: 7%;
     }
 
-    .stars {
-        position: absolute;
-        top: 884%;
-        left: 40%;
+    .desc p {
+        font-size: 24px;
+    }
+
+    .stars img {
+        height: 40px;
+        margin: 31px auto 0px;
     }
 
     .stars p {
         text-align: center;
-        font-size: 30px;
+        font-size: 22px;
         margin-top: 2%;
     }
 
-    .line-red {
-        position: absolute;
-        top: 903%;
-        left: 23%;
+    .line-red img {
+        height: 22px;
     }
 
     .desc-saiko-2 {
         text-align: center;
-        font-size: 30px;
-        margin-top: 13.5%;
+        font-size: 22px;
     }
 
     .text-note {
@@ -544,42 +655,772 @@
     .kupon {
         background-image: url(../images/bg-coupon.jpg);
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: contain;
         height: 715px;
         width: 100%;
+        margin-top: 42px;
 
     }
 
     .ending {
         background-image: url(../images/bg-end.jpg);
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: contain;
         height: 528px;
+        position: relative;
         width: 100%;
     }
 
     .coupon {
-        position: absolute;
-        top: 950%;
-        left: 37%;
+        text-align: center;
     }
 
-    .jal {
-        position: absolute;
-        top: 975%;
-        left: 17%;
+    .coupon img {
+        height: 130px;
+        position: relative;
+        top: 47px;
     }
 
-    .ana {
-        position: absolute;
-        top: 975.5%;
-        left: 55%;
+    .jal img {
+        height: 130px;
+        position: relative;
+        top: 61px;
+        left: 97px;
+    }
+
+    .ana img {
+        height: 130px;
+        position: relative;
+        top: -75px;
+        left: 571px;
     }
 
     .plan {
+        text-align: center;
+    }
+
+    .plan img {
+        position: relative;
+        height: 130px;
+        z-index: 1;
+        top: -23px;
+    }
+
+    .ending {
+        top: -332px;
+    }
+
+    .coupon:hover {
+        opacity: 70%;
+    }
+
+    .jal:hover {
+        opacity: 70%;
+    }
+
+    .ana:hover {
+        opacity: 70%;
+    }
+
+    .plan:hover {
+        opacity: 70%;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+
+    .sp{
+        display: none;
+    }
+
+    .pc{
+        display: block;
+    }
+
+    #head {
+        background-image: url(../images/hotel_01.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 816px;
+        
+    }
+
+    .title-top {
+        height: 272px;
+        right: 20%;
+        bottom: 2%;
+        text-align: center;
+    }
+
+    .title-top img {
+        margin-top: 40%;
+    }
+
+    .navbar-daun {
+        width: 30%;
         position: absolute;
-        top: 1010%;
-        left: 37%;
+
+    }
+
+    .navi-scroll {
+        position: sticky;
+        top: 90px;
+        margin: 40px auto;
+    }
+
+    .taizai {
+        font-family: 'Yomogi', cursive;
+        color: #FF9801;
+        text-decoration: none;
+    }
+
+    .mamak {
+        font-family: 'Yomogi', cursive;
+        color: #FF9801;
+        text-decoration: none;
+    }
+
+    .kyapu {
+        font-family: 'Yomogi', cursive;
+        color: #FF9801;
+        text-decoration: none;
+    }
+
+    .saiko {
+        font-family: 'Yomogi', cursive;
+        color: #FF9801;
+        text-decoration: none;
+    }
+
+    .hoteru {
+        position: relative;
+        background: url(../images/taizai.jpg) no-repeat;
+        display: flex;
+        background-size: contain;
+        padding: 94px;
+        padding-left: 90px;
+    }
+
+    .hoteru-left {
+        width: 50%;
+
+    }
+
+    p {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .hoteru-right {
+        width: 40%;
+        z-index: 1;
+        margin-left: 95px;
+        margin-top: -74px;
+    }
+
+
+    .hoteru h3 {
+        position: sticky;
+        font-size: 27px;
+        font-family: 'Yomogi', cursive;
+        text-align: center;
+        color: #ff6c00;
+        text-shadow: 4px 3px 4px #c4cecf;
+        font-family: 'Kaisei Tokumin', serif;
+    }
+
+    .hoteru-right h3 {
+        margin-bottom: 19px;
+    }
+
+    .hoteru-right img {
+        width: 50%;
+    }
+
+    .slider-text {
+        overflow: hidden;
+    }
+
+    .slider-text-wrapper .swiper-slide {
+        width: 100%;
+    }
+
+    .text {
+        position: absolute;
+        top: 40%;
+        left: 70%;
+        font-size: 25px;
+        transform: translate(-50%, -50%);
+        text-transform: uppercase !important;
+        z-index: 999;
+    }
+
+    .testSwiper .swiper-slide-shadow {
+        background: none;
+    }
+
+    .testSwiper .swiper-slide img {
+        width: 100%;
+    }
+
+    #navbar ul {
+        display: flex;
+        justify-content: center;
+
+        align-items: center;
+        list-style: none;
+        gap: 50px;
+        background: white;
+        border: solid 4px #a6dcef;
+        border-radius: 10px;
+        width: 900px;
+        margin: 0 auto;
+        padding: 20px 30px;
+        box-shadow: 5px 6px 6px rgb(189 189 189);
+    }
+
+    .element {
+        height: 100%;
+        width: 100%;
+    }
+
+    .element img {
+        position: absolute;
+        bottom: 49%;
+        left: 388px;
+        z-index: 100;
+    }
+
+    .element-2 img {
+        position: absolute;
+        bottom: 2%;
+        left: -4px;
+        z-index: 1;
+    }
+
+    .asset {
+        background-image: url(../images/assetfam_06.jpg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 100%;
+        margin-top: -13%;
+        height: 475px;
+    }
+
+    .link-1 {
+        text-align: center;
+        padding-top: 2.5%;
+        position: relative;
+        margin: 0 auto;
+    }
+
+    .link-1 img {
+        max-width: 900px;
+        height: 135px;
+        margin-top: 58px;
+    }
+
+    .button-1 {
+        position: absolute;
+        top: 27%;
+        right: 15%;
+        z-index: 100;
+    }
+
+    .button-1 img {
+        height: 66px;
+        right: 130px;
+        position: relative;
+    }
+
+    .button-1:hover {
+        transform: translateY(-5px);
+    }
+
+    .link-2 {
+        text-align: center;
+        margin-top: -2%;
+        margin-left: 2.5%;
+        position: relative;
+    }
+
+    .link-2 img {
+        max-width: 900px;
+        text-align: center;
+        height: 155px;
+        margin-top: 30px;
+    }
+
+    .button-2 {
+        position: absolute;
+        top: 25%;
+        right: 15%;
+    }
+
+    .button-2 img {
+        position: relative;
+        height: 83px;
+        right: 124px;
+        bottom: 20px;
+    }
+
+    .button-2:hover {
+        transform: translateY(-5px);
+    }
+
+    .mama {
+        background-image: url(../images/bg-mama.jpg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        text-align: center;
+        width: 100%;
+        margin: 35px auto;
+    }
+
+    .title-mama {
+        text-align: center;
+    }
+
+    .title-mama img {
+        position: relative;
+        bottom: 81px;
+        height: 239px;
+    }
+
+    .title-mama p {
+        font-size: 23px;
+        text-align: center;
+        bottom: 75px;
+        position: relative;
+        z-index: 100;
+    }
+
+    .kolase {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        position: relative;
+    }
+
+    .grid img {
+        height: 260px;
+        z-index: 10;
+        position: relative;
+        top: -41px;
+    }
+
+    .sun {
+        left: 3%;
+        top: 131em;
+        position: absolute;
+    }
+
+    .sun img {
+        height: 207px;
+    }
+
+    .star {
+        position: absolute;
+        right: 93px;
+        top: 135em;
+        z-index: 20;
+    }
+
+    .star img {
+        height: 117px;
+    }
+
+    .crab {
+        position: absolute;
+        left: 8%;
+        top: 150em;
+        z-index: 20;
+    }
+
+    .crab img {
+        height: 117px;
+    }
+
+    .suika {
+        position: absolute;
+        left: 78%;
+        z-index: 20;
+    }
+
+    .suika img {
+        height: 117px;
+        position: absolute;
+        bottom: 2px;
+    }
+
+    .link-3 {
+        background-image: url(../images/eskrim.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        position: relative;
+        height: 242px;
+        top: -19px;
+    }
+
+    .link-3a {
+        position: relative;
+        top: 20px;
+    }
+
+    .link-3a img {
+        top: 25px;
+        position: relative;
+        height: 137px;
+    }
+
+    .button-3 {
+        position: absolute;
+        top: 35%;
+        right: 19%;
+    }
+
+    .button-3 img {
+        height: 63px;
+        position: absolute;
+        top: 11px;
+        right: 98px;
+    }
+
+    .button-3:hover {
+        transform: translateY(-5px);
+    }
+
+    .line img {
+        width: 100%;
+    }
+
+    .hotelcap {
+        background-image: url(../images/kyanpu.jpg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: bottom;
+        width: 100%;
+        text-align: center;
+        position: relative;
+    }
+
+    .title-kyapu img {
+        height: 140px;
+    }
+
+    .minna img {
+        height: 120px;
+    }
+
+    .text-desc p {
+        text-align: center;
+        font-size: 20px;
+        position: relative;
+        bottom: 38px;
+    }
+
+    .gel {
+        position: absolute;
+        right: 0;
+        top: 40%;
+    }
+
+    .gel img {
+        height: 100px;
+    }
+
+    .swiper-camp {
+        width: 90%;
+        overflow: hidden;
+        position: relative;
+        margin: 34px auto;
+        top: -17px;
+    }
+
+    .swiper-camp .swiper-slide {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+
+    .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .swiper-pagination {
+        bottom: 0;
+    }
+
+    .swiper-pagination-bullet-active {
+        background-color: #ff6c00;
+    }
+
+    /* .hotelcap-b {
+        background: url(../images/ban.png) no-repeat, url(../images/glasses.png) no-repeat;
+        background-position: -22% 8%, 100% 8%; 
+        padding: 62px 0;
+    } */
+    .ban {
+        position: absolute;
+        top: 125%;
+        left: 90px;
+    }
+
+    .ban img {
+        height: 146px;
+    }
+
+    .glasses {
+        position: absolute;
+        left: 75%;
+    }
+
+    .glasses img {
+        height: 135px;
+        position: absolute;
+    }
+
+    .link-4 {
+        position: relative;
+        width: 100%;
+        max-width: 1133px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .link-4 img {
+        text-align: center;
+        height: 150px;
+        margin-top: 25px;
+    }
+
+    /* .not-link {
+        width: 100%;
+    } */
+
+    .button-4 {
+        position: absolute;
+        right: 23%;
+        top: 32%;
+    }
+
+    .button-4 img {
+        height: 67px;
+        position: absolute;
+        right: -1px;
+    }
+
+    .button-4:hover {
+        transform: translateY(-5px);
+        transition: ease-in;
+    }
+
+    .link-5 {
+        position: relative;
+        width: 100%;
+        text-align: center;
+        max-width: 1133px;
+        margin: 0 auto;
+    }
+
+    .link-5 img {
+        height: 152px;
+        text-align: center;
+    }
+
+    .button-5 {
+        position: absolute;
+        right: 10%;
+        top: 32%;
+    }
+
+    .button-5 img {
+        height: 61px;
+        position: absolute;
+        right: 136px;
+    }
+
+    .button-5:hover {
+        transform: translateY(-5px);
+    }
+
+    .bufee {
+        background-image: url(../images/bg-saikou.jpg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        position: relative;
+        height: 797px;
+        width: 100%;
+    }
+
+    #saiko {
+        text-align: center;
+        margin: 20px auto 95px;
+    }
+
+    #saiko img {
+        width: 80%;
+        max-width: 1273px;
+    }
+
+    /* .title-saiko {
+        position: absolute;
+        top: 768%;
+        left: 16%;
+    } */
+
+    .title-saiko img {
+        height: 75px;
+        margin: auto 78px;
+        top: -45px;
+        position: relative;
+    }
+
+    .swiper-saiko {
+        max-width: 900px;
+        height: auto;
+        margin-top: -72%;
+        margin-left: 25.5%;
+        overflow: hidden;
+    }
+
+    .swiper-saiko img {
+        height: 338px;
+        width: 506px;
+    }
+
+    .swiper-saiko .swiper-slide {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .frame {
+        position: absolute;
+        top: 38%;
+        right: 22%;
+        z-index: 1;
+    }
+
+    .frame img {
+        height: 120px
+    }
+
+    .frame-2 {
+        position: absolute;
+        top: 3%;
+        left: 22%;
+        z-index: 1;
+    }
+
+    .frame-2 img {
+        height: 120px;
+    }
+
+    .desc {
+        text-align: center;
+        margin-top: 7%;
+    }
+
+    .desc p {
+        font-size: 24px;
+    }
+
+    .stars img {
+        height: 40px;
+        margin: 31px auto 0px;
+    }
+
+    .stars p {
+        text-align: center;
+        font-size: 22px;
+        margin-top: 2%;
+    }
+
+    .line-red img {
+        height: 22px;
+    }
+
+    .desc-saiko-2 {
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .text-note {
+        text-align: center;
+        font-size: 30px;
+        margin-top: 1%;
+    }
+
+    .kupon {
+        background-image: url(../images/bg-coupon.jpg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 715px;
+        width: 100%;
+        margin-top: 42px;
+
+    }
+
+    .ending {
+        background-image: url(../images/bg-end.jpg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 528px;
+        position: relative;
+        width: 100%;
+    }
+
+    .coupon {
+        text-align: center;
+    }
+
+    .coupon img {
+        height: 130px;
+        position: relative;
+        top: 47px;
+    }
+
+    .jal img {
+        height: 130px;
+        position: relative;
+        top: 61px;
+        left: 97px;
+    }
+
+    .ana img {
+        height: 130px;
+        position: relative;
+        top: -75px;
+        left: 571px;
+    }
+
+    .plan {
+        text-align: center;
+    }
+
+    .plan img {
+        position: relative;
+        height: 130px;
+        z-index: 1;
+        top: -23px;
+    }
+
+    .ending {
+        top: -332px;
     }
 
     .coupon:hover {
