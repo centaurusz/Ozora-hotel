@@ -27,27 +27,26 @@ html,
         background-image: url(../images/hotel_01.png);
         background-repeat: no-repeat;
         background-size: contain;
-        height: 200px;
+        height: 309px;
         margin: 0 auto;
         position: relative;
     }
 
     .title-top {
-        height: 272px;
-        right: 20%;
-        bottom: 2%;
         text-align: center;
     }
 
     .title-top img {
-        margin-top: 40%;
+        margin-top: 48%;
+        position: relative;
+        height: 111px;
     }
 
-    .navbar-daun {
+    /* .navbar-daun {
         width: 30%;
         position: absolute;
 
-    }
+    } */
 
     .navi-scroll {
         position: sticky;
@@ -82,14 +81,13 @@ html,
     .hoteru {
         position: relative;
         background: url(../images/taizai.jpg) no-repeat;
-        display: flex;
         background-size: contain;
-        padding: 94px;
-        padding-left: 90px;
+        padding: 18px 53px;
     }
 
     .hoteru-left {
-        width: 50%;
+        width: 80%;
+        margin: 0 auto;
 
     }
 
@@ -99,16 +97,14 @@ html,
     }
 
     .hoteru-right {
-        width: 40%;
+        width: 80%;
         z-index: 1;
-        margin-left: 95px;
-        margin-top: -74px;
+        margin: 7px auto;
     }
 
 
     .hoteru h3 {
-        position: sticky;
-        font-size: 27px;
+        font-size: 17px;
         font-family: 'Yomogi', cursive;
         text-align: center;
         color: #ff6c00;
@@ -173,15 +169,17 @@ html,
 
     .element img {
         position: absolute;
-        bottom: 49%;
-        left: 388px;
+        bottom: 75%;
+        height: 105px;
+        left: 251px;
         z-index: 100;
     }
 
     .element-2 img {
         position: absolute;
-        bottom: 2%;
-        left: -4px;
+        bottom: 40%;
+        left: 38px;
+        height: 105px;
         z-index: 1;
     }
 
@@ -203,8 +201,8 @@ html,
 
     .link-1 img {
         max-width: 900px;
-        height: 135px;
-        margin-top: 58px;
+        height: 64px;
+        margin-top: 31px;
     }
 
     .button-1 {
@@ -215,8 +213,9 @@ html,
     }
 
     .button-1 img {
-        height: 66px;
-        right: 130px;
+        height: 42px;
+        right: 11px;
+        bottom: 10px;
         position: relative;
     }
 
@@ -234,8 +233,8 @@ html,
     .link-2 img {
         max-width: 900px;
         text-align: center;
-        height: 155px;
-        margin-top: 30px;
+        height: 74px;
+        margin-top: 14px;
     }
 
     .button-2 {
@@ -246,9 +245,9 @@ html,
 
     .button-2 img {
         position: relative;
-        height: 83px;
-        right: 124px;
-        bottom: 20px;
+        height: 54px;
+        right: 4px;
+        bottom: 15px;
     }
 
     .button-2:hover {
@@ -261,7 +260,7 @@ html,
         background-size: contain;
         text-align: center;
         width: 100%;
-        margin: 35px auto;
+        margin: -254px auto;
     }
 
     .title-mama {
@@ -270,14 +269,16 @@ html,
 
     .title-mama img {
         position: relative;
-        bottom: 81px;
-        height: 239px;
+        bottom: 36px;
+        height: 113px;
+        margin: 0 auto 40px;
     }
 
     .title-mama p {
-        font-size: 23px;
+        font-size: 12px;
         text-align: center;
         bottom: 75px;
+        margin: 0 22px;
         position: relative;
         z-index: 100;
     }
@@ -290,54 +291,54 @@ html,
     }
 
     .grid img {
-        height: 260px;
+        height: 160px;
         z-index: 10;
         position: relative;
-        top: -41px;
+        top: -47px;
     }
 
     .sun {
-        left: 3%;
-        top: 131em;
+        left: 5%;
+        top: 61em;
         position: absolute;
     }
 
     .sun img {
-        height: 207px;
+        height: 102px;
     }
 
     .star {
         position: absolute;
-        right: 93px;
-        top: 135em;
+        right: 55px;
+        top: 63em;
         z-index: 20;
     }
 
     .star img {
-        height: 117px;
+        height: 55px;
     }
 
     .crab {
         position: absolute;
-        left: 8%;
-        top: 150em;
+        left: 37px;
+        top: 82em;
         z-index: 20;
     }
 
     .crab img {
-        height: 117px;
+        height: 67px;
     }
 
     .suika {
         position: absolute;
-        left: 78%;
+        left: 70%;
         z-index: 20;
     }
 
     .suika img {
-        height: 117px;
+        height: 67px;
         position: absolute;
-        bottom: 2px;
+        bottom: 25px;
     }
 
     .link-3 {
@@ -746,21 +747,20 @@ html,
     }
 
     .title-top {
-        height: 272px;
-        right: 20%;
-        bottom: 2%;
         text-align: center;
     }
 
     .title-top img {
-        margin-top: 40%;
+        margin-top: 39%;
+        height: 407px;
+        position: relative;
     }
 
-    .navbar-daun {
+    /* .navbar-daun {
         width: 30%;
         position: absolute;
 
-    }
+    } */
 
     .navi-scroll {
         position: sticky;
@@ -886,15 +886,17 @@ html,
 
     .element img {
         position: absolute;
-        bottom: 49%;
-        left: 388px;
+        bottom: 55%;
+        left: 442px;
+        height: 189px;
         z-index: 100;
     }
 
     .element-2 img {
         position: absolute;
-        bottom: 2%;
-        left: -4px;
+        top: 294px;
+        left: 42px;
+        height: 189px;
         z-index: 1;
     }
 
@@ -974,7 +976,7 @@ html,
         background-size: contain;
         text-align: center;
         width: 100%;
-        margin: 35px auto;
+        margin: -26px auto;
     }
 
     .title-mama {
@@ -983,14 +985,14 @@ html,
 
     .title-mama img {
         position: relative;
-        bottom: 81px;
-        height: 239px;
+        bottom: 73px;
+        height: 218px;
     }
 
     .title-mama p {
-        font-size: 23px;
+        font-size: 25px;
         text-align: center;
-        bottom: 75px;
+        bottom: 98px;
         position: relative;
         z-index: 100;
     }
@@ -1011,12 +1013,12 @@ html,
 
     .sun {
         left: 3%;
-        top: 131em;
+        top: 127em;
         position: absolute;
     }
 
     .sun img {
-        height: 207px;
+        height: 202px;
     }
 
     .star {
