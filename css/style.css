@@ -347,32 +347,29 @@ html,
         background-size: contain;
         background-position: center;
         position: relative;
-        height: 242px;
-        top: -19px;
+        height: 351px;
+        top: -157px;
     }
 
     .link-3a {
         position: relative;
-        top: 20px;
     }
 
     .link-3a img {
-        top: 25px;
+        top: 143px;
         position: relative;
-        height: 137px;
+        height: 65px;
     }
 
     .button-3 {
         position: absolute;
-        top: 35%;
-        right: 19%;
+        left: 194px;
     }
 
     .button-3 img {
-        height: 63px;
+        height: 41px;
         position: absolute;
-        top: 11px;
-        right: 98px;
+        top: 84px;
     }
 
     .button-3:hover {
@@ -388,22 +385,24 @@ html,
         background-repeat: no-repeat;
         background-size: contain;
         background-position: bottom;
+        background-position-y: 190px;
         width: 100%;
         text-align: center;
         position: relative;
     }
 
     .title-kyapu img {
-        height: 140px;
+        height:56px;
     }
 
     .minna img {
-        height: 120px;
+        height: 50px;
     }
 
     .text-desc p {
         text-align: center;
-        font-size: 20px;
+        font-size: 12px;
+        margin: 0 3px;
         position: relative;
         bottom: 38px;
     }
@@ -411,18 +410,17 @@ html,
     .gel {
         position: absolute;
         right: 0;
-        top: 40%;
     }
 
     .gel img {
-        height: 100px;
+        height: 35px;
     }
 
     .swiper-camp {
-        width: 90%;
+        width: 80%;
         overflow: hidden;
         position: relative;
-        margin: 34px auto;
+        margin: 27px 32px;
         top: -17px;
     }
 
@@ -463,12 +461,12 @@ html,
     } */
     .ban {
         position: absolute;
-        top: 125%;
-        left: 90px;
+        top: 418px;
+        left: 16px;
     }
 
     .ban img {
-        height: 146px;
+        height: 95px;
     }
 
     .glasses {
@@ -477,7 +475,8 @@ html,
     }
 
     .glasses img {
-        height: 135px;
+        height: 54px;
+        bottom: -7px;
         position: absolute;
     }
 
@@ -491,8 +490,8 @@ html,
 
     .link-4 img {
         text-align: center;
-        height: 150px;
-        margin-top: 25px;
+        height: 69px;
+        margin-top: -26px;
     }
 
     /* .not-link {
@@ -506,9 +505,10 @@ html,
     }
 
     .button-4 img {
-        height: 67px;
+        height: 35px;
         position: absolute;
-        right: -1px;
+        right: -31px;
+        top: 6px;
     }
 
     .button-4:hover {
@@ -525,7 +525,7 @@ html,
     }
 
     .link-5 img {
-        height: 152px;
+        height: 69px;
         text-align: center;
     }
 
@@ -536,9 +536,9 @@ html,
     }
 
     .button-5 img {
-        height: 61px;
+        height: 34px;
         position: absolute;
-        right: 136px;
+        right: 16px;
     }
 
     .button-5:hover {
@@ -550,13 +550,13 @@ html,
         background-repeat: no-repeat;
         background-size: contain;
         position: relative;
-        height: 797px;
+        height: 172px;
         width: 100%;
     }
 
     #saiko {
         text-align: center;
-        margin: 20px auto 95px;
+        margin: 52px auto 23px;
     }
 
     #saiko img {
@@ -571,23 +571,22 @@ html,
     } */
 
     .title-saiko img {
-        height: 75px;
-        margin: auto 78px;
-        top: -45px;
+        height: 27px;
+        margin-left: 35px;
+        top: -15px;
         position: relative;
     }
 
     .swiper-saiko {
         max-width: 900px;
         height: auto;
-        margin-top: -72%;
-        margin-left: 25.5%;
+        margin: -152px 96px;
         overflow: hidden;
     }
 
     .swiper-saiko img {
-        height: 338px;
-        width: 506px;
+        
+        width: 100%;
     }
 
     .swiper-saiko .swiper-slide {
@@ -598,24 +597,24 @@ html,
 
     .frame {
         position: absolute;
-        top: 38%;
+        top: 97px;
         right: 22%;
         z-index: 1;
     }
 
     .frame img {
-        height: 120px
+        height: 39px
     }
 
     .frame-2 {
         position: absolute;
-        top: 3%;
-        left: 22%;
+        top: 23px;
+        left: 95px;
         z-index: 1;
     }
 
     .frame-2 img {
-        height: 120px;
+        height: 39px;
     }
 
     .desc {
